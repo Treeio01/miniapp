@@ -3,7 +3,6 @@ import Layout from './components/Layout.vue';
 import LiveBar from './components/LiveBar.vue';
 import Navbar from './components/Navbar.vue';
 import { RouterView } from 'vue-router';
-
 </script>
 
 <template>
