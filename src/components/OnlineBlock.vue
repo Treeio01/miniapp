@@ -1,7 +1,7 @@
 <template>
   <div
     :class="type == 'gifts' ? 'justify-center' : 'justify-between'"
-    class="flex px-6 pb-[25px] z-50 items-center"
+    class="flex px-6 pb-[25px] z-50 items-center w-full"
   >
     <div
       v-if="type != 'gifts'"
@@ -50,7 +50,7 @@
       class="flex bg-[#F58515] rounded-[30px] p-2.5 gap-[5px] items-center"
     >
       <span
-        class="text-white gap-1 flex items-center text-lg font-sf-pro font-medium"
+        class="text-white gap-1 flex items-center text-lg font-Montserrat font-medium"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

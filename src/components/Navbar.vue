@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex z-50 justify-between max-w-[590px] rounded-t-[20px] border-t border-white w-full absolute bottom-0 left-1/2 -translate-x-1/2 bg-black/50 px-15 pt-5 pb-16">
+        class="flex z-50 justify-between max-w-[590px] rounded-t-[20px] border-t border-white w-full fixed bottom-0 left-1/2 -translate-x-1/2 bg-black/50 px-15 pt-5 pb-16">
         <RouterLink to="/gifts" class="flex flex-col items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
                 <path
@@ -32,7 +32,7 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <span class="font-sf-pro text-sm leading-[100%] tracking-0 text-[#747474]">
+            <span class="font-Montserrat text-sm leading-[100%] tracking-0 text-[#747474]">
                 Мои подарки
             </span>
         </RouterLink>
@@ -118,7 +118,7 @@
                     </clipPath>
                 </defs>
             </svg>
-            <span class="font-sf-pro text-sm leading-[100%] tracking-0 text-[#747474]">
+            <span class="font-Montserrat text-sm leading-[100%] tracking-0 text-[#747474]">
                 Главная
             </span>
         </RouterLink>
@@ -146,7 +146,7 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <span class="font-sf-pro text-sm leading-[100%] tracking-0 text-[#747474]">
+            <span class="font-Montserrat text-sm leading-[100%] tracking-0 text-[#747474]">
                 Профиль
             </span>
         </RouterLink>

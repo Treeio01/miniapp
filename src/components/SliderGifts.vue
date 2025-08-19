@@ -18,12 +18,12 @@
         <!-- Цена только у активного -->
         <div
           v-if="isActive(i)"
-          class="absolute flex bottom-[-19px] left-1/2 -translate-x-1/2 py-[5px] px-2.5 bg-black/50 rounded-[20px] border-t border-[#00AEFF] transition-all duration-1000"
+          class="absolute backdrop-blur-[5px] flex bottom-[-19px] left-1/2 -translate-x-1/2 py-[5px] px-2.5 bg-black/5 rounded-[20px] border-t border-[#00AEFF] transition-all duration-1000"
         >
           <span
-            class="text-2xl whitespace-nowrap text-white font-Montserrat font-medium leading-[100%] tracking-[-0.00em]"
+            class="text-2xl flex items-center gap-[5px] whitespace-nowrap text-white font-Montserrat font-medium leading-[100%] tracking-[-0.00em]"
           >
-            {{ prices[i] }} ⭐
+            {{ prices[i] }} <img src="../assets/emoji/star.png" class="max-w-[32px]" alt="">
           </span>
         </div>
       </div>

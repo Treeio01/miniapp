@@ -1,6 +1,6 @@
 <template>
   <OnlineBlock type="profile"></OnlineBlock>
-  <div class="flex flex-col items-center z-30">
+  <div class="flex flex-col items-center z-30 w-full">
     <div class="flex flex-col items-center gap-[2px]">
       <img
         src="../assets/pasha.png"
@@ -144,9 +144,9 @@
     </div>
     <div class="flex mt-5 flex-col gap-2.5 max-w-[546px] w-full max-w-">
       <div class="flex relative overflow-hidden py-[15px] rounded-[20px] w-full bg-linear-to-r from-[#281B00] to-[#F9B221] px-5 items-center justify-between">
-        <span class="text-[88px] rotate-[-13deg] absolute right-[71px] bottom-[-45px] opacity-40"> 🏆 </span>
+        <span class="text-[88px] rotate-[-13deg] absolute right-[71px] bottom-[-25px] opacity-40"> <img src="../assets/emoji/cup.png" class="max-w-[88px]" alt=""> </span>
         <div class="flex gap-2.5 items-center">
-          <span class="text-[32px]"> 🏆 </span>
+          <span class="text-[32px]"> <img src="../assets/emoji/cup.png" class="max-w-[32px]" alt=""> </span>
           <span
             class="text-[32px] font-Montserrat text-[#FBFBFB]  leading-[100%] tracking-[-0.04em]"
           >
@@ -169,9 +169,9 @@
         </svg>
       </div>
       <div class="flex  relative overflow-hidden py-[15px] rounded-[20px] w-full bg-linear-to-r from-[#005DFF] to-[#01D8FF] px-5 items-center justify-between">
-        <span class="text-[88px] rotate-[-13deg] absolute right-[71px] bottom-[-45px] opacity-40"> 💰 </span>
+        <span class="text-[88px] rotate-[-13deg] absolute right-[71px] bottom-[-45px] opacity-40"> <img src="../assets/emoji/money.png" class="max-w-[88px]" alt="">  </span>
         <div class="flex gap-2.5 items-center">
-          <span class="text-[32px]"> 💰 </span>
+          <span class="text-[32px]"> <img src="../assets/emoji/cup.png" class="max-w-[32px]" alt="">  </span>
           <span
             class="text-[32px] font-Montserrat text-[#FBFBFB]  leading-[100%] tracking-[-0.04em]"
           >

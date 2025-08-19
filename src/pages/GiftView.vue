@@ -27,7 +27,7 @@
       </div>
     </div>
     <button
-      class="w-full mb-[140px] rounded-[40px] max-w-[546px] mt-5 py-[23px] px-[70px] gap-2.5 items-center flex justify-center bg-linear-to-r from-[#01D9FF] to-[#0051FF]"
+      class="w-full mb-[140px] rounded-[20px] max-w-[546px] mt-5 py-[23px] px-[70px] gap-2.5 items-center flex justify-center bg-linear-to-r from-[#01D9FF] to-[#0051FF]"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
